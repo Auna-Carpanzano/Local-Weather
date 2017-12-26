@@ -14,6 +14,7 @@ $(document).ready(function() {
         var fahrenheit;
 
         fahrenheit = (celsius * (9 / 5) + 32).toFixed(0);
+        celsius = ((fahrenheit - 32) * (5 / 9)).toFixed(0);
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
