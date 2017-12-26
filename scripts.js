@@ -31,6 +31,16 @@ $(document).ready(function() {
             tempSwap = false;
           }
         });
+
+        // CHANGE BACKGROUND IMAGE BASED ON TEMPERATURE
+        if (fahrenheit > 100) {
+
+        } else if (fahrenheit > 60) {
+
+        } else if (fahrenheit > 0) {
+
+        }
+
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
