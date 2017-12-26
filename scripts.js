@@ -17,7 +17,7 @@ $(document).ready(function() {
         celsius = ((fahrenheit - 32) * (5 / 9)).toFixed(0);
 
         document.getElementById("city").textContent = city;
-
+        document.getElementById("weatherDescription").textContent = weatherDescription;
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
