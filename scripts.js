@@ -23,7 +23,11 @@ $(document).ready(function() {
 
         // CONVERT FAHRENHEIT TO CELSIUS ON CLICK
         $("#fahrenheit").click(function() {
+          if (tempSwap === false) {
 
+          } else {
+
+          }
         });
       }); // END GETJSON
     }); // END GET CURRENT POSITION
