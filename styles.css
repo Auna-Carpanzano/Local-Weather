@@ -11,3 +11,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.btn {
+  font-size: 32px;
+}
