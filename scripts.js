@@ -15,6 +15,9 @@ $(document).ready(function() {
 
         fahrenheit = (celsius * (9 / 5) + 32).toFixed(0);
         celsius = ((fahrenheit - 32) * (5 / 9)).toFixed(0);
+
+        document.getElementById("city").textContent = city;
+
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
