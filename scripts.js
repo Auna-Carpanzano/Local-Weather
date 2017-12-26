@@ -20,6 +20,11 @@ $(document).ready(function() {
         document.getElementById("weatherDescription").textContent = weatherDescription;
         document.getElementById("fahrenheit").innerHTML = fahrenheit + " &#8457;";
         $("#iconBtn").prepend('<img src=' + icon + ' alt="Weather Icon" title="Weather icon" width="200" height="200">');
+
+        // CONVERT FAHRENHEIT TO CELSIUS ON CLICK
+        $("#fahrenheit").click(function() {
+
+        });
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
