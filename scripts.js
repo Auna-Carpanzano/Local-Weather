@@ -18,6 +18,7 @@ $(document).ready(function() {
 
         document.getElementById("city").textContent = city;
         document.getElementById("weatherDescription").textContent = weatherDescription;
+        document.getElementById("fahrenheit").innerHTML = fahrenheit + " &#8457;";
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
