@@ -12,9 +12,25 @@ body {
   background-size: cover;
 }
 
-.btn {
+#fahrenheit {
   font-size: 32px;
   background-color: transparent;
+}
+
+#fahrenheit:link {
+  color: white;
+}
+
+#fahrenheit:visited {
+  color: white;
+}
+
+#fahrenheit:hover {
+  color: gray;
+}
+
+#fahrenheit:active {
+  color: gray;
 }
 
 .box {
