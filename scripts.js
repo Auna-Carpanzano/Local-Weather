@@ -27,7 +27,8 @@ $(document).ready(function() {
             $("#fahrenheit").html(fahrenheit + " &#8457;");
             tempSwap = true;
           } else {
-
+            $("#fahrenheit").html(celsius + " &#8451;");
+            tempSwap = false;
           }
         });
       }); // END GETJSON
