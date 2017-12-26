@@ -6,7 +6,7 @@ $(document).ready(function() {
       var api = 'https://fcc-weather-api.glitch.me/api/current?lat=' + lat + '&lon=' + lon + '';
 
       $.getJSON(api, function(data) {
-
+        var city = data.name;
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
