@@ -34,7 +34,7 @@ $(document).ready(function() {
 
         // CHANGE BACKGROUND IMAGE BASED ON TEMPERATURE
         if (fahrenheit > 100) {
-
+          $("body").css("background-image", 'url("https://images.unsplash.com/photo-1480589331144-96c57ade5d41?auto=format&fit=crop&w=1050&q=80")');
         } else if (fahrenheit > 60) {
 
         } else if (fahrenheit > 0) {
