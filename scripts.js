@@ -10,6 +10,7 @@ $(document).ready(function() {
         var weatherDescription = data.weather[0].description;
         var celsius = data.main.temp;
         var icon = data.weather[0].icon;
+        var tempSwap = true;
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
