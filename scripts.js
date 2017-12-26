@@ -4,6 +4,10 @@ $(document).ready(function() {
       lon = position.coords.longitude;
       lat = position.coords.latitude;
       var api = 'https://fcc-weather-api.glitch.me/api/current?lat=' + lat + '&lon=' + lon + '';
+
+      $.getJSON(api, function(data) {
+
+      }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
     alert("Error: geolocation is not supported.");
