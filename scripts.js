@@ -1,6 +1,7 @@
 $(document).ready(function() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
+      lon = position.coords.longitude;
 
     }); // END GET CURRENT POSITION
   } else {
