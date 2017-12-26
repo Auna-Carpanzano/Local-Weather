@@ -12,6 +12,8 @@ $(document).ready(function() {
         var icon = data.weather[0].icon;
         var tempSwap = true;
         var fahrenheit;
+
+        fahrenheit = (celsius * (9 / 5) + 32).toFixed(0);
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
