@@ -7,6 +7,7 @@ $(document).ready(function() {
 
       $.getJSON(api, function(data) {
         var city = data.name;
+        var weatherDescription = data.weather[0].description;
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
