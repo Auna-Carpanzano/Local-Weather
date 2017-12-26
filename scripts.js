@@ -9,6 +9,7 @@ $(document).ready(function() {
         var city = data.name;
         var weatherDescription = data.weather[0].description;
         var celsius = data.main.temp;
+        var icon = data.weather[0].icon;
       }); // END GETJSON
     }); // END GET CURRENT POSITION
   } else {
