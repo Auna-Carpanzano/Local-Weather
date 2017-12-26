@@ -24,7 +24,8 @@ $(document).ready(function() {
         // CONVERT FAHRENHEIT TO CELSIUS ON CLICK
         $("#fahrenheit").click(function() {
           if (tempSwap === false) {
-
+            $("#fahrenheit").html(fahrenheit + " &#8457;");
+            tempSwap = true;
           } else {
 
           }
