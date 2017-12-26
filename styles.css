@@ -20,4 +20,5 @@ body {
 .box {
   background-color: royalblue;
   margin: 100px auto auto auto;
+  width: 70%;
 }
