@@ -24,3 +24,12 @@ body {
   padding: 10px 0;
   border-radius: 2px;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+.box {
+  width: 40%;
+}
+
+} /* End small devices */
