@@ -38,7 +38,7 @@ $(document).ready(function() {
         } else if (fahrenheit > 60) {
           $("body").css("background-image", 'url("https://images.unsplash.com/photo-1416431168657-a6c4184348ab?auto=format&fit=crop&w=1050&q=80")');
         } else if (fahrenheit > 0) {
-
+          $("body").css("background-image", 'url("https://images.unsplash.com/photo-1428604339796-72401d912824?auto=format&fit=crop&w=1050&q=80")');
         }
 
       }); // END GETJSON
